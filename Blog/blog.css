@@ -1,0 +1,14 @@
+@media(max-width : 376px){
+    .img-footer {
+        width: 80px ;
+    }
+    .freelancer  h1 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}

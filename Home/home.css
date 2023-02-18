@@ -1,0 +1,49 @@
+body{
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  @media(max-width : 376px){
+      .img-footer {
+          width: 80px ;
+      }
+     
+  }
+  .border-center {
+      border-left: 2px solid grey;
+      border-right: 2px solid grey;
+      height: 50%;
+      align-self: center;
+  }
+  
+  @media(max-width : 886px) {
+      .border-center { 
+          border: none;
+      }
+      .alterra {
+        font-size: 10vw;
+      }
+  }
+  
+  h5, p {
+      color: #19345e;
+  }
+  @media only screen and (max-width: 428px) {
+      .card-1 {
+        height: 50px;
+        width: 50px;
+      }
+      
+      h1 {
+        font-size: 1rem;
+      }
+      
+      h4,h5, p {
+        font-size: 0.8rem;
+      }
+    }
+  
+    @media(min-width : 1114px){
+      .alterra {
+          font-size: 4vw;
+      }
+    }

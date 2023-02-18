@@ -1,0 +1,44 @@
+body{
+    font-family: 'Poppins', sans-serif;
+  }
+@media(max-width : 376px){
+    .img-footer {
+        width: 80px ;
+    }
+}
+
+
+h5 , p , label{
+    color: #19345E;
+}
+
+input[type=email]:focus { 
+    outline: none !important;
+        border-color: #f47522;
+        box-shadow: 0 0 10px #f47522;
+ }
+ input[type=number]:focus { 
+    outline: none !important;
+        border-color: #f47522;
+        box-shadow: 0 0 10px #f47522;
+ }
+ input[type=fullname]:focus { 
+    outline: none !important;
+        border-color: #f47522;
+        box-shadow: 0 0 10px #f47522;
+ }
+
+
+textarea[type=text]:focus { 
+    outline: none !important;
+        border-color: #f47522;
+        box-shadow: 0 0 10px #f47522;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    display: none;
+}
+
+.bintang {
+    color: red;
+}
